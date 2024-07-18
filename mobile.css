@@ -1,0 +1,278 @@
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-image-container {
+    height: auto;
+    border-radius: 8px;
+    width: 35%;
+    text-align: right;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-description {
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  body {
+    max-width: 90%;
+  }
+
+  #nav-menu{
+    background-color: #0f1624;
+    border-color: navy;
+  
+
+  }
+  .main-header{
+    position: fixed;
+    z-index: 1;
+    background-color: #0f1624;
+  
+    top: 0px;
+    width: 100%;
+    margin: auto;
+  }
+  .hero-section {
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hero-image-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-content {
+    width: 90%;
+    margin: auto;
+    display: block;
+  }
+
+  .hero-img {
+    max-width: 400px;
+  }
+
+  .hero-skills-heading {
+    font-size: 3rem;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+  .hide-mobile {
+    display: none !important;
+  }
+}
+@media screen and (min-width: px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+    max-width: 100%;
+  }
+
+  .contact-me-text {
+    width: 50%;
+    order: 1;
+  }
+  .project-1 {
+    max-width: -webkit-fill-available;
+  }
+  .footer-mail {
+    width: 50%;
+    order: 3;
+  }
+
+  .footer-telegram {
+    width: 50%;
+    order: 4;
+  }
+
+  .footer-social-icons {
+    width: 50%;
+    order: 2;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95% !important;
+    margin: auto;
+  }
+
+  .logo-nav-toggle {
+    width: 30%;
+  }
+
+  header ul li {
+    margin-left: 0px;
+  }
+
+  .social-icons-header {
+    order: 2;
+  }
+
+  .nav-container {
+    order: 3;
+    width: 100%;
+  }
+
+  .download-cv-mobile-button {
+    width: 200px;
+    height: 70px;
+    border: 0px;
+    padding: 10px 30px;
+    gap: 10px;
+    border-radius: 60px 60px 60px 60px;
+    opacity: 0px;
+    background: linear-gradient(
+      270deg,
+      #13adc7 0%,
+      #6978d1 66.67%,
+      #945dd6 100%
+    );
+    color: #ffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 27px;
+    display: inline-block;
+  }
+
+  .project-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project {
+    width: 90%;
+    margin: auto;
+  }
+  .hero-description {
+    padding-bottom: 0;
+    font-size: 14px;
+    padding-top: 0;
+  }
+  .projects-container {
+    margin-top: 50px;
+  }
+  .main-container {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .skill {
+    width: 50%;
+    font-size: 0.7rem;
+  }
+
+  .hero-img {
+    max-width: 300px;
+  }
+
+  .footer-container {
+    font-size: 0.8rem;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-social-icons {
+    margin: auto;
+    display: flex;
+  }
+
+  .hero-skills-heading {
+    font-size: 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  header ul li a {
+    padding: 0;
+  }
+
+  #nav-menu {
+    margin: auto;
+  }
+
+  .logo {
+    width: 60px;
+    height: auto;
+  }
+
+  .hero-section {
+    margin: 0;
+  }
+
+  .nav-container {
+    display: flex;
+    padding: 0px;
+  }
+  .onlyMobile {
+    display: block !important;
+    font-size: 40px;
+  }
+  .mobSocial {
+    margin-top: 30px;
+    padding-left: 15px;
+  }
+  .mobSocial a {
+    display: inline;
+    padding: 0 20px;
+  }
+  .mblDownload {
+    margin: 14% auto 0;
+  }
+
+  .btn {
+    border-radius: 0;
+  }
+  .project-link-btn,
+  .github-btn {
+    font-size: 12px;
+  }
+  .project-1 p {
+    font-size: 14px;
+  }
+  .github-btn {
+    width: 160px;
+  }
+  .project-thumbnail {
+    width: 80%;
+    height: 150px;
+    margin: auto;
+  }
+  .project-thumbnail-container {
+    height: auto;
+  }
+}
+.onlyMobile {
+  display: none;
+}
+.above img {
+  width: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
