@@ -130,30 +130,22 @@ header ul li a {
   font-weight: 600;
   line-height: 80px;
   white-space: nowrap;
-  /* Prevent text wrapping */
   overflow: hidden;
-  /* Hide text overflow */
-  border-right: 0.15em solid black;
-  /* Cursor effect */
-  /* animation: typing 3.5s steps(22), blink-caret 0.75s step-end infinite; */
+  border-right: 0.15em solid #0f1624;
+
   height: 80px;
 }
 
 .hero-section {
   display: flex;
   align-items: center;
-  /* justify-content: center;
-    margin: auto;
-    border:  2px solid red; */
+
   margin-top: 50px;
 }
 
 .hero-content {
   display: flex;
   justify-content: space-around;
-  /* align-items: center;
-   padding: 12px;
-    border: 2px solid yellow; */
 }
 
 /* Image container styling */
@@ -340,7 +332,6 @@ header ul li a {
 /* Technology container styling */
 .tech-container {
   color: white;
-  /* width: 100%; */
   margin-top: 50px;
 }
 
@@ -348,13 +339,11 @@ header ul li a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* width: 80%; */
   padding-bottom: 10px;
   padding-top: 20px;
 }
 
 .progress-container hr {
-  /* Add styling as needed */
   height: 13px;
   background: linear-gradient(
     321.62deg,
@@ -416,10 +405,6 @@ header ul li a {
   display: flex;
   align-items: center;
 }
-
-/* .about-me-text-div-mobile {
-    width: 20%;
-  } */
 
 .footer-container {
   display: flex;
@@ -491,4 +476,9 @@ button {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
+}
+
+.github {
+  height: 35px;
+  width: 35px;
 }
